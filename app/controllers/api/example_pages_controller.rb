@@ -7,6 +7,6 @@ class Api::ExamplePagesController < ApplicationController
 	end
 
 	def goodbye_method
-		render json: {message: "farewell!"}
+		render 'goodbye.json.jbuilder'
 	end
 end

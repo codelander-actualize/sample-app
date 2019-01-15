@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   # verb "/urls" => "namespace/controllers#action"
   get "/hello_url" => "api/example_pages#hello_method"
   get "/goodbye_url" => "api/example_pages#goodbye_method"
+  
 end
